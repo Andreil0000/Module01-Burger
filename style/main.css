@@ -20,8 +20,8 @@ body {
 
 .header-logo {
    display: block;
-   background-image: url(../image/style/Logo.svg);
-   width: 63px;
+   background-image: url(../image/Logo.svg);
+   width: 176px;
    height: 56px;
    background-repeat: no-repeat;
    background-size: cover;
