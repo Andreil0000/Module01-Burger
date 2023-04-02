@@ -5,8 +5,8 @@ body {
 .container {
    max-Width: 1188px;
    margin: 0 auto;
-   padding-left: 15px ;
-   padding-right: 15px ;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
 .header {
@@ -20,7 +20,7 @@ body {
 
 .header-logo {
    display: block;
-   background-image: url(../images/logo.svg);
+   background-image: url(../image/style/Logo.svg);
    width: 63px;
    height: 56px;
    background-repeat: no-repeat;
@@ -40,14 +40,105 @@ body {
    color: #443737;
    text-decoration: none;
 }
-.header-nav a::after{
+
+.header-nav a::after {
    content: "";
-   width:100%;
-   height:3px;
-  border-radius: 1.5px;
-  background:transparent;
-  display:block;
+   width: 100%;
+   height: 3px;
+   border-radius: 1.5px;
+   background: transparent;
+   display: block;
+   bottom: 0;
 }
-.header-nav a.active::after{
+
+.header-nav a.active::after {
    background: #FFC725;
+}
+
+.button {
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   border: none;
+   padding: 0;
+
+}
+
+.button-item {
+   position: relative;
+}
+
+.button-count {
+   font-weight: 700;
+   font-size: 13px;
+   color: #FFFFFF;
+   background: #F37335;
+   border-radius: 100%;
+   position: absolute;
+   width: 17px;
+   height: 17px;
+   text-align: center;
+   line-height: 1.3;
+
+}
+
+.button-text {
+   color: #443737;
+   font-weight: 700;
+   font-size: 15px;
+}
+
+.bg {
+   text-align: center;
+   color: #FFFFFF;
+   background-image: url(../images/bg.jpg);
+   background-size: cover;
+   background-position: center center;
+   padding: 142px 0;
+}
+
+.breardcrumbs {
+   padding: 0;
+   margin-top: 0;
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+}
+
+.breardcrumbs a {
+   color: #DEDEDE;
+   font-size: 15px;
+   font-family: 'Nunito Sans', sans-serif;
+   text-decoration: none;
+}
+
+.breardcrumbs a::before {
+
+   content: "/";
+   position: relative;
+   left: 0px;
+
+}
+
+.breardcrumbs li:first-child a::before {
+   display: none;
+
+}
+
+.title {
+   font-weight: 700;
+   font-size: 79px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.description {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-size: 15px;
+   line-height: 1.5;
+   color: #FAF9F9;
+   max-width: 320px;
+   margin: 0 auto;
+
 }
