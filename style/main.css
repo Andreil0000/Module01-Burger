@@ -9,6 +9,10 @@ body {
    padding-right: 15px;
 }
 
+header {
+   border-bottom: 1px solid #E5E5E5;
+}
+
 .header {
    font-family: 'Open Sans', sans-serif;
    display: flex;
@@ -30,6 +34,7 @@ body {
    display: flex;
    padding-left: 0;
    gap: 46px;
+   padding: 24px;
 }
 
 .header-nav a {
@@ -37,6 +42,10 @@ body {
    font-size: 20px;
    color: #443737;
    text-decoration: none;
+}
+
+.header-nav a:hover {
+   color: #FFC725;
 }
 
 .header-nav a::after {
@@ -60,6 +69,7 @@ body {
    border: none;
    padding: 0;
    gap: 10px;
+   cursor: pointer;
 }
 
 .button-item {
@@ -92,6 +102,7 @@ body {
    background-size: cover;
    background-position: center center;
    padding: 142px 0;
+   margin-bottom: 140px;
 }
 
 .breardcrumbs {
@@ -110,16 +121,23 @@ body {
    text-decoration: none;
 }
 
+.breardcrumbs a:hover {
+   color: #FFC725;
+}
+
 .breardcrumbs a::before {
    content: "/";
    position: relative;
-   left:-7px;
+   left: -7px;
+   pointer-events: none;
+}
 
+.breardcrumbs a::before {
+   color: #DEDEDE;
 }
 
 .breardcrumbs li:first-child a::before {
    display: none;
-
 }
 
 .title {
@@ -136,5 +154,43 @@ body {
    color: #FAF9F9;
    max-width: 320px;
    margin: 0 auto;
+}
 
+.banner-box {
+   position: relative;
+}
+
+.banner-box {
+
+   padding: 142px 1;
+   width: 1182px;
+   height: 438px;
+   background-color: #f0f0f0;
+   background-image: url(../image/булка\ \(2\).jpg);
+   color: #FFFFFF;
+}
+
+.banner-title {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 60px;
+}
+
+.banner-text {
+   margin-top: 15px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+}
+
+.banner-link {
+   padding-bottom: 18px;
+   padding-top: 8px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-left: 10px;
+   color: #1E2F40;
+   background: #FBB731
 }
