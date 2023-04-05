@@ -157,40 +157,50 @@ header {
 }
 
 .banner-box {
-   position: relative;
-}
-
-.banner-box {
-
-   padding: 142px 1;
-   width: 1182px;
-   height: 438px;
-   background-color: #f0f0f0;
    background-image: url(../image/булка\ \(2\).jpg);
-   color: #FFFFFF;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center center;
+   padding: 100px;
 }
 
 .banner-title {
-   font-family: 'Nunito Sans';
-   font-style: normal;
-   font-weight: 900;
-   font-size: 60px;
+font-size: 60px;
+font-weight: 900;
+color: #FFFFFF;
+margin-top: 0;
+margin-bottom: 12px;
 }
 
-.banner-text {
-   margin-top: 15px;
+.banner-text span{
+   font-size: 14px;
    font-family: 'Open Sans';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 15px;
+   font-weight: 600;
+   text-transform: uppercase;
+   background-color: #FBB731;
+   border-radius: 14px;
+   padding: 5px 0;
+   display: block;
+   max-width: 96px;
+   text-align: center;
+   margin-bottom: 9px;
 }
-
+.banner-text{
+  color: #FAF9F9;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: 'Open Sans';
+  max-width: 353px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
 .banner-link {
-   padding-bottom: 18px;
-   padding-top: 8px;
-   padding-right: 15px;
-   padding-left: 15px;
-   margin-left: 10px;
-   color: #1E2F40;
-   background: #FBB731
+font-weight: 700;
+font-size: 14px;
+padding: 20px 27px;
+text-transform: uppercase;
+text-decoration: none;
+color: #1E2F40;
+background-color: #FBB731;
+border-radius: 5px;
 }
