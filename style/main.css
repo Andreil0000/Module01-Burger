@@ -338,7 +338,7 @@ header {
 .footer-logo {
    width: 63px;
    height: 56px;
-   
+
 }
 
 .footer-item {
@@ -346,7 +346,7 @@ header {
    font-family: 'Nunito Sans';
    font-weight: 800;
    font-size: 20px;
-   line-height:0px;
+   line-height: 0px;
    text-transform: uppercase;
 
 }
@@ -408,6 +408,7 @@ header {
    color: #FBB731;
    margin-top: 0;
    font-weight: 900;
+   list-style: none;
 }
 
 .footer-tel li {
