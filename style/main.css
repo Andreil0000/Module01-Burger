@@ -38,6 +38,7 @@ header {
    background-size: cover;
 }
 
+
 .header-nav {
    list-style-type: none;
    display: flex;
@@ -235,7 +236,7 @@ header {
 
 .banner-link:hover {
    background-color: transparent;
-   color: #F37335 
+   color: #F37335
 }
 
 .menu-header {
@@ -312,17 +313,18 @@ header {
    height: 430px;
 }
 
-.menu-grid-text a {
+.menu-grid-text{
    font-weight: 700;
    font-size: 14px;
    text-transform: uppercase;
    text-decoration: none;
-   color: #F37335;
+   color: #1E2F40;
 }
 
-.menu-grid-text a:hover {
+.menu-grid-text :hover {
    background-color: transparent;
    color: #F37335;
+   
 }
 
 .menu-grid-btn {
@@ -338,6 +340,7 @@ header {
    border: 1px solid #FBB731;
    ;
 }
+
 .menu-grid-btn:hover {
    background-color: transparent;
    color: #F37335;
@@ -423,10 +426,11 @@ header {
    text-decoration: none;
    font-weight: 400;
 }
+
 .footer-list a:hover {
    font-family: 'Open Sans';
    font-style: normal;
-   color:  #FBB731;
+   color: #FBB731;
    text-decoration: none;
    font-weight: 400;
 
@@ -467,6 +471,7 @@ header {
    font-weight: 900;
    color: #FBB731;
 }
+
 .footer-list-tel a:hover {
    font-size: 20px;
    font-weight: 900;
