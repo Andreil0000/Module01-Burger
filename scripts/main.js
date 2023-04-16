@@ -16,6 +16,7 @@ function clickHandler(e) {
 }
 // Button Up
 
+
 window.onscroll = function () { scrollFunction() };
 
 const upbuttons = document.querySelectorAll(".button-up");
