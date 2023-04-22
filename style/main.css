@@ -700,10 +700,6 @@ header {
       gap: 50px 15px;
    }
 
-   .menu-other {
-      overflow: hidden;
-      height: 650px;
-   }
 
    .menu-other .menu-grid {
       display: flex;
@@ -713,7 +709,7 @@ header {
       padding-bottom: 50px;
    }
 
-   .menu-other .menu-grid-cover-item {
+   .menu-other .menu-grid-item {
       flex: 0 0 281px;
    }
 
